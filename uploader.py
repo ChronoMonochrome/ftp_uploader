@@ -31,7 +31,7 @@ VERBOSE_DEBUG = 0
 SERVER = "ftp.strato.de"
 USER = "xda@xda.mister-freeze.eu"
 PASSWORD = sys.argv[1]
-TIMEOUT = 9999
+TIMEOUT = 99999999
 LOCAL_FILE=sys.argv[2]
 REMOTE_DIR="./%s" % sys.argv[3]
 
